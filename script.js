@@ -23,7 +23,7 @@ function tellMe(joke) {
     });
 }
 
-// Get Jokes from Joke API
+// Get Jokes from Joke API https://sv443.net/jokeapi/v2/
 async function getJokes() {
     let joke = '';
     const apiUrl = 'https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit';
